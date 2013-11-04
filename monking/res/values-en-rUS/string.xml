@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="main_income" >Income</string>
+    <string name="main_spending">Spending</string>
+    <string name="main_count">Count</string>
+    <string name="main_detail">Detail</string>
+    <string name="main_setting">Setting</string>
+    <string name="main_income_text">IncomeCount:</string>
+    <string name="main_spending_text">SpendingCount:</string>
+    <string name="main_profit">Profit:</string>
+    
+ </resources>

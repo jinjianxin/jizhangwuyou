@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        
+        <LinearLayout 
+			  android:id="@+id/main_linear_layout"    
+			  android:orientation="horizontal"
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+            >
+            
+            <EditText
+                android:id="@+id/main_edit_text"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:singleLine="true"
+                />
+            
+            <Button 
+                android:id="@+id/main_search_button"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="6"
+                />
+            
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/main_income_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/main_income_text"
+            android:textSize="20sp" 
+            android:layout_below="@id/main_linear_layout"
+            />
+
+        <TextView
+            android:id="@+id/main_spending_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_income_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/main_spending_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_profit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_spending_text"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/main_profit"
+            android:textSize="20sp" />
+</RelativeLayout>
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/main_income_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_income" 
+            />
+
+        <Button
+            android:id="@+id/main_spending_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_spending" 
+            />
+
+        <Button
+            android:id="@+id/main_count_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_count" 
+            />
+
+        <Button
+            android:id="@+id/main_detail_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_detail" 
+            />
+
+        <Button
+            android:id="@+id/main_setting_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_setting" 
+            />
+        
+    </LinearLayout>
+    
+</LinearLayout>

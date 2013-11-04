@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="main_income" >收入</string>
+    <string name="main_spending">支出</string>
+    <string name="main_count">统计</string>
+    <string name="main_detail">明细</string>
+    <string name="main_setting">设置</string>
+    
+    <string name="main_income_text">收入总计：</string>
+    <string name="main_spending_text">支出总计：</string>
+    <string name="main_profit">盈利：</string>
+    
+ </resources>
